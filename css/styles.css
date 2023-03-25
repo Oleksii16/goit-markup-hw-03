@@ -1,0 +1,238 @@
+/*PORTFOLIO*/
+/*body*/
+body{
+  font-family: "Roboto", sans-serif;
+}
+  body{
+    color: #434455;
+    background-color: #FFFFFF;
+  }
+/*logo*/
+/*.logo{
+  font-family: 'Raleway', sans-serif
+}*/
+.logo{
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.class-span{
+  color: #f4f4fd;
+}
+
+.class-spanhead{
+  color: #2e2f42;
+}
+
+/*NAV*/
+.mail{
+    font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+color: #434455;
+      font-style: normal;
+}
+/*нижнее подчеркивание*/
+.link{
+text-decoration: none;
+}
+/*toczka v spiske*/
+.list{
+  list-style: none;
+}
+
+.link:hover{
+  color: #404bbf;
+}
+.link:focus{
+  color: #404bbf;
+}
+
+
+
+
+
+
+
+/*addres_header*/
+.addres_header{
+  font-style: normal;
+}
+
+
+.mail:hover{
+  color: #404bbf;
+}
+.mail:focus{
+  color: #404bbf;
+}
+                      /*1 ul*/
+
+
+.filters{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #F4F4FD;
+  cursor: pointer;
+}
+.filters:hover{
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+.filters:focus{
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+                      /*2 ul*/
+
+
+/*sekcia 1 h*/
+.list-twoh{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.small-text{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*footer*/
+.fon-footer{
+  background-color: #2e2f42;
+}
+/*spisok 1 sekcia*/
+
+/*PORTFOLIO*/
+
+/*INDEX.HTML*/
+.index-link{
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-link{
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.contacts-link{
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sectionindex{
+  background-color: #2e2f42;
+}
+.hhindex{
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.buttonorder{
+  background-color: #4D5AE5;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.buttonorder:hover{
+  background-color: #404BBF;
+}
+.buttonorder:focus{
+  background-color: #404BBF;
+}
+.sectiontwoh{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+color: #2e2f42;
+}
+.sectiontwo-p{
+  font-size: 16px;
+  line-height: 1.5;
+letter-spacing: 0.02em;
+  color: #434455;
+}
+/*3 sekcia*/
+.sectionthreeindex{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42 ;
+  text-transform: capitalize;
+}
+
+.section-threeh{
+font-weight: 500;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-transform: capitalize;
+}
+.sectionfourindex{
+background-color: #F4F4FD;
+}
+
+.section-index{
+  background-color: #F4F4FD;
+
+}
+.sectionfour-li{
+  background-color: #FFFFFF;
+}
+/*zagolovok 4 sekcia h3*/
+.sectionthree-h{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/*h2 section 4 */
+.section-four{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+:root {
+
+
+  css declarations;
+
+
+}
