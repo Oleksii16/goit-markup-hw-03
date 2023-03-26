@@ -11,10 +11,11 @@ body{
 /*.logo{
   font-family: 'Raleway', sans-serif
 }*/
-
-/*===========HEADER==========*/
-.header-class {
-height: 72px;
+h3 {
+  margin: 0px;
+}
+p {
+  margin: 0px;
 }
 
 
@@ -22,7 +23,10 @@ height: 72px;
 
 
 
-
+/*===========HEADER==========*/
+.header-class {
+height: 72px;
+}
 
 .logo{
   font-family: "Raleway",sans-serif;
@@ -46,7 +50,7 @@ height: 72px;
 .naw-header-index {
   display: flex;
   align-items: center;
-  margin-right: auto;
+margin-right: auto;
 }
 
 .ul-header-index {
@@ -109,11 +113,6 @@ text-decoration: none;
 .link:focus{
   color: #404bbf;
 }
-
-
-
-
-
 
 
 /*addres_header*/
@@ -215,15 +214,160 @@ gap: 24px;
 }
 
 /*---1-LI---*/
+.li-one {
+}
+/*---H3---*/
+.h-li-one {
+  margin: 0px;
+
+}
+
+/*---P---*/
+.p-our-goal {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+/*---2-LI---*/
+
+/*---H3---LI_2---*/
+.h-li-two {
+  margin: 0px;
+}
+
+/*---P-LI-2---*/
+.p-bring-the {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+/*---3-LI---*/
+
+/*---H3---LI-3---*/
+.h-three-li {
+margin: 0px;
+}
+
+/*---P-LI_3---*/
+.p-li-three {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+/*---LI_4---*/
+
+/*---H3-LI-4---*/
+.h-li-three {
+  margin: 0px;
+}
+
+/*---P-LI_4---*/
+.p-design {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+/*=================SEKTION---3===========*/
+
+/*---SEKCTION-3---*/
+.sectionthreeindex {
+width: 1440px;
+padding-bottom: 120px;
+padding-left: 156px;
+padding-right: 156px;
+}
+
+/*---DIV---*/
+
+/*---H2----*/
+.h-section-three {
+  margin: 0px;
+}
+
+/*---UL-section-3---*/
+.ul-section-three {
+  margin: 0px;
+  margin-top: 72px;
+  display: flex;
+  width: 1128px;
+}
 
 
+/*===============SECTION-4============*/
+
+.sectionfourindex {
+  width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*---DIV---*/
+
+.div-four-section {
+  width: 1440px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/*---H2-SECTION-4---*/
+.h-ourteam {
+  margin: 0px;
+}
+
+/*---UL-SECTION-4---*/
+.ul-section-four {
+margin-top: 72px;
+display: flex;
+gap: 24px;
+}
+
+/*---VSE H V sekcii 4---*/
+.sectionthree-h {
+
+}
+
+/*---VSE P V SEKCII 4---*/
+.p-section-four {
+  margin-top: 8px;
+}
+
+.sectionfour-li {
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
 
 
+/*=============FOOTER==================*/
 
+.fon-footer {
+  width: 1440px;
+  height: 312px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
+/*------DIV FOOTER---*/
+.div-footer {
+  box-sizing: border-box;
 
+}
+.footer-div {
+  width: 264px;
+    margin-left: 156px; 
+}
 
+/*---footer text---*/
+.footer-text {
+  margin-top: 16px;
 
+}
+
+/*---Footer logo---*/
+.logo-footer {
+}
+/*==========================================*/
 
 /*sekcia 1 h*/
 .list-twoh{
