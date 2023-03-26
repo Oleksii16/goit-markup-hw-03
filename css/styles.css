@@ -14,6 +14,9 @@ body{
 h3 {
   margin: 0px;
 }
+h2 {
+  margin: 0px;
+}
 p {
   margin: 0px;
 }
@@ -525,12 +528,17 @@ background-color: #F4F4FD;
 /*---section-1-portfolio---*/
 .sectiononeportfolio {
 width: 1440px;
+
 }
 
 /*---DIV 1 PORTFOLIO---*/
 .div-one-portfolio {
   padding-top: 96px;
   padding-bottom: 76px;
+  width: 1470px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 /*---UL---1---PORTFOLIO---*/
@@ -543,15 +551,29 @@ width: 1440px;
 }
 
 /*---UL--2---portfolio---*/
-.div-one-portfolio {
+.card-ul-portfolio {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 10px;
+  column-gap: 24px;
   row-gap: 48px;
-flex-basis: calc((100% - 10px) / 3);
-  padding: 10px;
-    background-color: #fff;
-    border-radius: 4px;
-    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+/*---DIV KARTOCZEK---*/
+.card-div {
+display: flex;
+flex-direction: column;
+
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+/*---H2---KARTOCZKI---*/
+.list-twoh {
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+/*---P-KARTOCZEK---*/
+.small-text {
+  margin-left: 16px;
 }
