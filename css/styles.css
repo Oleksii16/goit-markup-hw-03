@@ -11,6 +11,19 @@ body{
 /*.logo{
   font-family: 'Raleway', sans-serif
 }*/
+
+/*===========HEADER==========*/
+.header-class {
+height: 72px;
+}
+
+
+
+
+
+
+
+
 .logo{
   font-family: "Raleway",sans-serif;
   font-weight: 800;
@@ -29,6 +42,51 @@ body{
 }
 
 /*NAV*/
+
+.naw-header-index {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.ul-header-index {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-left: 76px;
+}
+
+
+.addres_header {
+    display: flex;
+      align-items: center;
+      gap: 40px;
+
+}
+/*---DIV KONTENER HEADER---*/
+
+.header-div {
+display: flex;
+align-items: center;
+}
+
+/*---adress-header---index---*/
+.addres_header {
+
+}
+
+/*---ul-adress-header---*/
+.ul-adress-header {
+display: flex;
+align-items: center;
+    gap: 40px;
+}
+
+/*---logo-header---*/
+.logo-header {
+  margin-left: 156px;
+}
+
 .mail{
     font-weight: 500;
       line-height: 1.5;
@@ -91,7 +149,80 @@ text-decoration: none;
   color: #FFFFFF;
   background-color: #404BBF;
 }
-                      /*2 ul*/
+
+
+/*================SEKCIA=======1===================*/
+/*---section---1---*/
+.sectionindex {
+}
+
+/*---div---*/
+.div-section-one {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/*---H1---*/
+.h-one-section {
+  margin: 0;
+  width: 496px;
+}
+
+/*---KNOPKA-">Order Service---*/
+.buttonorder {
+  margin-top: 48px;
+  width: 169px;
+  height: 56px;
+}
+
+/*=================SEKCIA---2==================*/
+
+/*---sekcia-2---*/
+.sectiontwoindex {
+  width: 1440px;
+padding-top: 120px;
+padding-bottom: 120px;
+padding-left: 156px;
+}
+
+/*---H2---*/
+.hsection {
+position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*---div---*/
+.div-section-two {
+  display: flex;
+}
+
+/*---UL---*/
+.list-section-two {
+  width: 1128px;
+  margin: 0px;
+  padding: 0px;
+display: flex;
+gap: 24px;
+}
+
+/*---1-LI---*/
+
+
+
+
+
+
+
+
 
 
 /*sekcia 1 h*/
@@ -142,6 +273,9 @@ text-decoration: none;
 
 .sectionindex{
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  width: 1440px;
 }
 .hhindex{
   font-size: 56px;
@@ -230,9 +364,13 @@ background-color: #F4F4FD;
 }
 
 :root {
-
-
   css declarations;
+}
 
-
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  margin-right: 0px;
 }
