@@ -556,6 +556,10 @@ width: 1440px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+  margin-top: 0px;
+  margin-bottom: 120px;
+  padding-left: 0px;
+  margin-left: 156px;
 }
 
 /*---DIV KARTOCZEK---*/
