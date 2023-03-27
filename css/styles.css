@@ -1,34 +1,65 @@
 /*PORTFOLIO*/
 /*body*/
-body{
-  font-family: "Roboto", sans-serif;
-}
   body{
     color: #434455;
     background-color: #FFFFFF;
+      font-family: "Roboto", sans-serif;
   }
 /*logo*/
 /*.logo{
   font-family: 'Raleway', sans-serif
 }*/
-h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+{
   margin: 0px;
 }
-h2 {
-  margin: 0px;
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
-p {
-  margin: 0px;
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
 }
 
+address {
+  font-style: normal;
+}
 
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
 
+a {
+  text-decoration: none;
+}
 
-
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /*===========HEADER==========*/
 .header-class {
 height: 72px;
+border-bottom: 1px;
+color: #2E2F42;
+display: flex;
 }
 
 .logo{
@@ -64,12 +95,7 @@ margin-right: auto;
 }
 
 
-.addres_header {
-    display: flex;
-      align-items: center;
-      gap: 40px;
 
-}
 /*---DIV KONTENER HEADER---*/
 
 .header-div {
@@ -78,9 +104,7 @@ align-items: center;
 }
 
 /*---adress-header---index---*/
-.addres_header {
 
-}
 
 /*---ul-adress-header---*/
 .ul-adress-header {
@@ -91,7 +115,7 @@ align-items: center;
 
 /*---logo-header---*/
 .logo-header {
-  margin-left: 156px;
+  /*margin-left: 156px;*/
 }
 
 .mail{
@@ -156,13 +180,17 @@ text-decoration: none;
 /*================SEKCIA=======1===================*/
 /*---section---1---*/
 .sectionindex {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
 }
 
 /*---div---*/
 .div-section-one {
-display: flex;
-flex-direction: column;
-align-items: center;
+/*display: flex;
+flex-direction: column;*/
+text-align: center;
 }
 
 /*---H1---*/
@@ -182,7 +210,7 @@ align-items: center;
 
 /*---sekcia-2---*/
 .sectiontwoindex {
-  width: 1440px;
+  /*width: 1440px;*/
 padding-top: 120px;
 padding-bottom: 120px;
 padding-left: 156px;
@@ -204,7 +232,7 @@ position: absolute;
 
 /*---div---*/
 .div-section-two {
-  display: flex;
+  /*display: flex;*/
 }
 
 /*---UL---*/
@@ -418,12 +446,6 @@ align-items: center;
   color: #2e2f42;
 }
 
-.sectionindex{
-  background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  width: 1440px;
-}
 .hhindex{
   font-size: 56px;
   line-height: 1.07;
@@ -514,20 +536,19 @@ background-color: #F4F4FD;
   css declarations;
 }
 
-.container {
+/*.container {
   width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  margin-right: 0px;
-}
+}*/
 
 
 /*==================PORTFOLIO======================*/
 
 /*---section-1-portfolio---*/
 .sectiononeportfolio {
-  width: 1440px;
+  /*width: 1440px;*/
 }
 
 /*---DIV 1 PORTFOLIO---*/
