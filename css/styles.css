@@ -1,5 +1,9 @@
 /*PORTFOLIO*/
 /*body*/
+
+:root {
+  css declarations;
+}
   body{
     color: #434455;
     background-color: #FFFFFF;
@@ -15,10 +19,10 @@ h3,
 h4,
 h5,
 h6,
-p,
-{
-  margin: 0px;
+p {
+  margin: 0;
 }
+
 
 img {
   display: block;
@@ -119,7 +123,7 @@ align-items: center;
 }
 
 .mail{
-    font-weight: 500;
+    font-weight: 400;
       line-height: 1.5;
       letter-spacing: 0.02em;
 color: #434455;
@@ -166,6 +170,7 @@ text-decoration: none;
   color: #4d5ae5;
   background-color: #F4F4FD;
   cursor: pointer;
+  padding: 12px 24px;
 }
 .filters:hover{
   color: #FFFFFF;
@@ -365,12 +370,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 /*=============FOOTER==================*/
 
-.fon-footer {
-  width: 1440px;
-  height: 312px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
 
 /*------DIV FOOTER---*/
 .div-footer {
@@ -379,13 +378,12 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 }
 .footer-div {
   width: 264px;
-    margin-left: 156px; 
 }
 
 /*---footer text---*/
 .footer-text {
   margin-top: 16px;
-
+color: #F4F4FD;
 }
 
 /*---Footer logo---*/
@@ -410,6 +408,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 /*footer*/
 .fon-footer{
   background-color: #2e2f42;
+    padding-top: 100px;
+      padding-bottom: 100px;
 }
 /*spisok 1 sekcia*/
 
@@ -487,7 +487,7 @@ letter-spacing: 0.02em;
 }*/
 
 .section-threeh{
-font-weight: 500;
+font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
@@ -517,6 +517,7 @@ background-color: #F4F4FD;
 
 /*h2 section 4 */
 .section-four{
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -525,9 +526,7 @@ background-color: #F4F4FD;
   color: #2e2f42;
 }
 
-:root {
-  css declarations;
-}
+
 
 /*.container {
   width: 1440px;
@@ -541,7 +540,8 @@ background-color: #F4F4FD;
 
 /*---section-1-portfolio---*/
 .sectiononeportfolio {
-  /*width: 1440px;*/
+padding-bottom: 120px;
+padding-top: 96px;
 }
 
 /*---DIV 1 PORTFOLIO---*/
@@ -559,8 +559,7 @@ background-color: #F4F4FD;
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin: 0px;
-  padding: 0px;
+  margin-bottom: 72px;
 }
 
 /*---UL--2---portfolio---*/
@@ -569,20 +568,12 @@ background-color: #F4F4FD;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-top: 0px;
-  margin-bottom: 120px;
-  padding-left: 0px;
-  margin-left: 156px;
+
 }
 
 /*---DIV KARTOCZEK---*/
 .card-div {
-display: flex;
-flex-direction: column;
-
-padding-left: 15px;
-padding-right: 15px;
-margin: 0 auto;
+padding: 32px 16px;
 }
 
 /*---H2---KARTOCZKI---*/
@@ -606,4 +597,9 @@ margin: 0 auto;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.div-foursectionindex {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
