@@ -61,8 +61,7 @@ a {
 /*===========HEADER==========*/
 .header-class {
 height: 72px;
-border-bottom: 1px solid #2E2F42;;
-/*color: #2E2F42;*/
+border-bottom: 1px solid #E7E9FC;
 display: flex;
 }
 
@@ -384,6 +383,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .footer-text {
   margin-top: 16px;
 color: #F4F4FD;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 /*---Footer logo---*/
@@ -575,16 +576,17 @@ padding-top: 96px;
 /*---DIV KARTOCZEK---*/
 .card-div {
 padding: 32px 16px;
+border: 1px solid #E7E9FC;
+border-top: 0;
+
 }
 
 /*---H2---KARTOCZKI---*/
 .list-twoh {
-  margin-left: 16px;
   margin-bottom: 8px;
 }
 /*---P-KARTOCZEK---*/
 .small-text {
-  margin-left: 16px;
 }
 
 .visually-hidden {
